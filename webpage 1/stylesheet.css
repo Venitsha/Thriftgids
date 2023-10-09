@@ -1,0 +1,303 @@
+* {
+    padding : 0;
+    margin : 0;
+    }
+    body {
+    color : #E3DCD2;
+    background-color : #013328;
+    font-family : Georgia, serif;
+    }
+    header {
+    display : flex;
+    justify-content : flex-end;
+    align-items : center;
+    padding : 20px 50px;
+    background-color : #013328;
+    }
+    header nav li {
+    list-style : none;
+    display : inline-block;
+    padding : 0 20px;
+    }
+    header nav a {
+    text-decoration : none;
+    color : #E3DCD2;
+    }
+    header nav a:hover {
+    color : white;
+    }
+
+
+    /* pagina voor inspiratie overgang op achtergrond.
+    https://webdevetc.com/blog/how-to-add-a-gradient-overlay-to-a-background-image-using-just-css-and-html/ */
+    
+    .titel {
+    display : flex;
+    justify-content : center;
+    padding-bottom : 13%;
+    background-image : linear-gradient(to bottom, #00000051, #013328), url("img/vintage-store.jpg");
+    background-size : cover;
+    color : #ffffff;
+    }
+    h1.hoofdkop {
+    padding : 120px;
+    font-size : 600%;
+    }
+    .titel p {
+    display : block;
+    width : 400px;
+    align-self : last baseline;
+    font-size : 110%;
+    }
+    .art {
+    width : 410px;
+    height : 380px;
+    margin : 10px 30px;
+    background-color : #e3dcd2d7;
+    font-family : Georgia, serif;
+    color : #100c0d;
+    }
+    .links h2 {
+    padding : 0% 0% 0% 2%;
+    }
+    .links p {
+    padding : 0% 2% 0% 2%;
+    }
+    a:hover {
+    background-color : #E3DCD2;
+    }
+    .links a {
+    text-decoration : none;
+    }
+    .links {
+    display : flex;
+    justify-content : center;
+    padding : 0% 5% 0% 5%;
+    }
+    div.links img {
+    padding : 5%;
+    height : 230px;
+    width : 367px;
+    }
+    h1.kop {
+    padding : 100px;
+    font-size : 600%;
+    background-color : #100c0d89;
+    }
+    .kopje {
+    font-size : 300%;
+    padding : 60px;
+    }
+    .inleiding {
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    background-color : #e3dcd2b5;
+    margin : 0% 15%;
+    }
+    .inleiding h3 {
+    padding : 3%;
+    font-size : 170%;
+    color : #100c0d;
+    padding-right : 5%;
+    }
+    .inleiding img {
+    height : 400px;
+    padding-left : 5%;
+    padding-top : 3%;
+    padding-bottom : 3%;
+    }
+    .tussenkop {
+    font-size : 150%;
+    padding : 3%;
+    margin : 0% 15%;
+    }
+    .subkop {
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    background-color : #E3DCD2;
+    margin : 0% 15%;
+    }
+    .subkop p {
+    padding : 3%;
+    font-size : 150%;
+    color : #100c0d;
+    padding-left : 5%;
+    }
+    .subkop em {
+    font-size : 90%;
+    }
+    .subkop img {
+    height : 500px;
+    padding : 3%;
+    }
+    main ul {
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    list-style : none;
+    }
+    div.part {
+    justify-content : center;
+    display : flex;
+    }
+
+
+
+    /* slide show inspiratie 
+    https://www.geeksforgeeks.org/programming-a-slideshow-with-html-and-css/ */
+
+    #slideshow {
+    overflow : hidden;
+    height : 405px;
+    width : 367px;
+    margin : 0 auto;
+    }
+
+    .slide {
+    float : left;
+    height : 510px;
+    width : 728px;
+    }
+    .slide-wrapper {
+    width : calc(728px * 3);
+    animation : slide 18s ease infinite;
+    }
+    @keyframes slide {
+    0% {
+    margin-left : 30px;
+    }
+    20% {
+    margin-left : 30px;
+    }
+    40% {
+    margin-left : -700px;
+    }
+    60% {
+    margin-left : -1456px;
+    }
+    }
+    .slideshow {
+    padding : 3% 1% 0% 1%;
+    background-color : #e3dcd248;
+    margin-left : 1%;
+    margin-right : 1%;
+    }
+    .artiekel {
+    display : flex;
+    margin : 5%;
+    font-size : 120%;
+    }
+    .paragraph {
+    color : #100c0d;
+    background-color : #e3dcd2b8;
+    padding : 10% 5% 5% 5%;
+    border-radius : 10% 0% 0% 10%;
+    }
+    .subtekst {
+    width : 50%;
+    color : #E3DCD2;
+    background-color : #100c0dbf;
+    padding : 4%;
+    border-radius : 50%;
+    font-size : 110%;
+    }
+    .tussentekst {
+    display : flex;
+    justify-content : center;
+    margin : 2%;
+    }
+    .informatie {
+    color : #E3DCD2;
+    background-color : #100c0db9;
+    padding : 10% 5% 5% 5%;
+    border-radius : 0% 10% 10% 0%;
+    }
+    .video {
+    display : flex;
+    margin : 5%;
+    font-size : 120%;
+    }
+    video {
+    height : 420px;
+    margin-left : 1%;
+    margin-right : 1%;
+    }
+    .heading {
+    display : flex;
+    justify-content : center;
+    padding-bottom : 13%;
+    background-image : linear-gradient(to bottom, #00000051, #013328), url("img/jeans.jpg");
+    background-size : cover;
+    padding : 120px;
+    font-size : 600%;
+    }
+
+    a{
+       color:#E3DCD2;
+    }
+
+    a:hover{
+    color: rgba(204, 155, 65, 0.885); 
+    }
+
+    .tekst p {
+       padding-top : 7%;
+    }
+
+    .tekst h2 {
+       padding : 1%;
+       margin : 5% 15%;
+    }
+
+    .tekst img {
+       height : 100px;
+       padding : 1%;
+    }
+
+    .tekst div {
+       display : flex;
+       align-content : center;
+       background-color : #e3dcd27f;
+       padding : 1%;
+       margin : 1% 15%;
+       border-radius : 1%;
+       font-size : 140%;
+    }
+
+    .tekst h2 a {
+       color : #E3DCD2;
+    }
+
+    .tekst h2 a:hover {
+       color : #100c0d;
+    }
+
+    footer {
+       display : flex;
+       background-color : #100c0d;
+       margin-top : 12%;
+    }
+
+    footer section {
+       padding : 1% 5% 1% 5%;
+    }
+
+    footer ul li {
+       list-style : none;
+    }
+    
+    footer a{
+        color: #E3DCD2;
+    }
+
+    footer a:hover{
+        color: rgba(204, 155, 65, 0.885);
+    }
+
+    .tekst img {
+       height : 200px;
+       display : flex;
+    }
+    
